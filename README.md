@@ -6,6 +6,8 @@ It also provides easy way to add permissions checks or ensure logged-in user, as
 
 There is also advanced error reporting from rest framework, that returns non-valid fields and error messages.
 
+Inspired by [Saleor](https://github.com/mirumee/saleor), [graphene-django-extras](https://github.com/eamigo86/graphene-django-extras/tree/master/graphene_django_extras) and [django-rest-framework](https://github.com/encode/django-rest-framework)
+
 ## Installation
 ```
 pip install ............
