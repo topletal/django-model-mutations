@@ -14,14 +14,15 @@ pip install ............
 
 ## Basic Usage
 Main classes that this package provides:
+
 | mutations | mixins |
 | ------ | ------ |
 |CreateModelMutation|LoginRequiredMutationMixin|
-|CreateBulkModelMutation||
-|UpdateModelMutation||
-|UpdateBulkModelMutation||
-|DeleteModelMutation||
-|DeleteBulkModelMutation||
+|CreateBulkModelMutation|
+|UpdateModelMutation|
+|UpdateBulkModelMutation|
+|DeleteModelMutation|
+|DeleteBulkModelMutation|
 
 
 #### Django usage
