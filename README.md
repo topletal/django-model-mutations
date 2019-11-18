@@ -1,7 +1,8 @@
 # Django Model Mutations
 
-[![build-status-image]][travis]
-[![pypi-version]][pypi]
+[![build status](
+  http://img.shields.io/travis/topletal/django-model-mutations/master.svg?style=flat)](https://travis-ci.org/topletal/django-model-mutations)
+[![PyPI version](https://badge.fury.io/py/django-model-mutations.svg)](https://badge.fury.io/py/django-model-mutations)
 
 This package adds Mutation classes that make creating graphene mutations with django models easier using Django Rest Framework serializers. It extends graphene Mutation class in a similar way to Django Rest Framework views or original Django views.
 
