@@ -112,7 +112,7 @@ mutation userCreate (input: {username: "myUsername"}) {
 
 
 # Bulk operations return 'count' and errors
-mutation userCreate (input: {username: "myUsername"}) {
+mutation userBulkCreate (input: {username: "myUsername"}, {username:"myusername2"}) {
     count
     errors {
         field
