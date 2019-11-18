@@ -1,8 +1,6 @@
-from distutils.core import setup
+from setuptools import setup
 
-from os import path
-this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+with open('README.md') as f:
     long_description = f.read()
 
 setup(
@@ -10,7 +8,7 @@ setup(
   packages = ['django_model_mutations'],   
   version = '0.1.1',      
   license='MIT',        
-  description = 'Graphene Django model mutations',   
+  description = 'Graphene Django mutations for Django models made easier',   
   author = 'Tomáš Opletal',                   
   author_email = 't.opletal@gmail.com',      
   url = 'https://github.com/topletal/django-model-mutations',  
@@ -21,7 +19,7 @@ setup(
           'django'
       ],
   long_description=long_description,
-  long_description_content_type = 'text/markdown',
+  long_description_content_type='text/markdown',  
   classifiers=[
     'Development Status :: 3 - Alpha',     
     'Intended Audience :: Developers',      
