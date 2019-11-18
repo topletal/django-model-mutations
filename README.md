@@ -1,5 +1,8 @@
 # Django Model Mutations
 
+[![build-status-image]][travis]
+[![pypi-version]][pypi]
+
 This package adds Mutation classes that make creating graphene mutations with django models easier using Django Rest Framework serializers. It extends graphene Mutation class in a similar way to Django Rest Framework views or original Django views.
 
 It also provides easy way to add permissions checks or ensure logged-in user, as well as easy way to override or add funcionality similar to django forms or rest framework views - such as ```get_queryset()``` or ```save()``` functions.
