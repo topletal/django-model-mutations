@@ -10,7 +10,7 @@ Inspired by [Saleor](https://github.com/mirumee/saleor), [graphene-django-extras
 
 ## Installation
 ```
-pip install ............
+pip install django-model-mutations
 ```
 
 
