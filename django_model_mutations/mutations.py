@@ -4,7 +4,7 @@ import graphene
 from django.core.exceptions import ValidationError, ImproperlyConfigured, ObjectDoesNotExist
 from graphene.types.mutation import MutationOptions
 from graphene_django.types import ErrorType
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from .utils import get_errors, get_output_fields, get_model_name, convert_serializer_to_input_type, serialize_errors
 
